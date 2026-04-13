@@ -14,3 +14,6 @@ set ::env(PL_RANDOM_GLB_PLACEMENT) 1
 # Power
 set ::env(VDD_NETS) "VPWR"
 set ::env(GND_NETS) "VGND"
+
+set ::env(EXTRA_LEFS) "analog/icell.lef"
+set ::env(EXTRA_GDS_FILES) "analog/icell.gds"
