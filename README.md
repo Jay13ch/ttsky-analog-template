@@ -1,36 +1,19 @@
-![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
+# Tiny Tapeout - ICell Analog Design
 
-# Tiny Tapeout Analog Project Template
+## Description
+Analog block (VGA/DAC cell) implemented using Sky130.
 
-- [Read the documentation for project](docs/info.md)
+## Inputs
+- ui_in[0] → Rn
+- ui_in[1] → Cn
+- ui_in[2] → Sn
 
-## What is Tiny Tapeout?
+## Outputs
+- uo_out[0] → Iout
 
-Tiny Tapeout is an educational project that aims to make it easier and cheaper than ever to get your digital designs manufactured on a real chip.
+## Analog
+- uio_in[0] → Vbias
 
-To learn more and get started, visit https://tinytapeout.com.
-
-## Analog projects
-
-For specifications and instructions, see the [analog specs page](https://tinytapeout.com/specs/analog/).
-
-## Enable GitHub actions to build the results page
-
-- [Enabling GitHub Pages](https://tinytapeout.com/faq/#my-github-action-is-failing-on-the-pages-part)
-
-## Resources
-
-- [FAQ](https://tinytapeout.com/faq/)
-- [Digital design lessons](https://tinytapeout.com/digital_design/)
-- [Learn how semiconductors work](https://tinytapeout.com/siliwiz/)
-- [Join the community](https://tinytapeout.com/discord)
-
-## What next?
-
-- [Submit your design to the next shuttle](https://app.tinytapeout.com/).
-- Edit [this README](README.md) and explain your design, how it works, and how to test it.
-- Share your project on your social network of choice:
-  - LinkedIn [#tinytapeout](https://www.linkedin.com/search/results/content/?keywords=%23tinytapeout) [@TinyTapeout](https://www.linkedin.com/company/100708654/)
-  - Mastodon [#tinytapeout](https://chaos.social/tags/tinytapeout) [@matthewvenn](https://chaos.social/@matthewvenn)
-  - X (formerly Twitter) [#tinytapeout](https://twitter.com/hashtag/tinytapeout) [@tinytapeout](https://twitter.com/tinytapeout)
-  - Bluesky [@tinytapeout.com](https://bsky.app/profile/tinytapeout.com)
+## Notes
+- LVS clean
+- Designed using Xschem + Magic
